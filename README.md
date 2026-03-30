@@ -86,7 +86,7 @@ A skill is considered validated when: Delta > 0 and Win Rate >= 80%.
 
 5 out of 6 skills validated. One failure — see the deep dive below.
 
-These results were produced before Andrej Karpathy's "vibe coding" post went viral in early 2025 (42k GitHub stars and counting). The core idea — tight feedback loops, measure-optimize-repeat — was already running. We just had it working on AI skills specifically.
+The Karpathy Loop works — the core idea of tight feedback loops and measure-optimize-repeat is sound. But if you don't control the evaluation, your LLM will lie to you. It learns to game the judge instead of genuinely improving. Proper fitness function design is the hard part, and that's what we focus on.
 
 ---
 
