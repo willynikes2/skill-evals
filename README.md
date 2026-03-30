@@ -119,7 +119,7 @@ We have since redesigned the Writing Plans evaluation and will re-run it with co
 We publish the what (skill results, pass rates, delta, win rates) and the proof (methodology, test cases, judge outputs). We do not publish:
 
 - Mutation algorithms
-- AutoML specifics
+- Optimization engine internals
 - Cycle counts and compute budgets
 - Optimization pipeline internals
 - Prompt engineering heuristics used in the optimizer
@@ -166,4 +166,4 @@ Detailed reports for each skill are in `/reports/`. Each report includes: skill 
 
 MIT License. The evaluation reports and methodology documentation in this repository are freely available for use, adaptation, and redistribution. See [LICENSE](LICENSE) for full terms.
 
-The optimization pipeline and underlying AutoML system are proprietary and not covered by this license.
+The optimization pipeline is proprietary and not covered by this license.
