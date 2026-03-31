@@ -114,6 +114,18 @@ We have since redesigned the Writing Plans evaluation and will re-run it with co
 
 ---
 
+## Compute Cost and Our Guarantee
+
+Every optimization costs real money to run. Each skill goes through ~50 mutation cycles, with 3 independent LLM judges (Claude, GPT-4o, Gemini) evaluating every cycle. That is hundreds of API calls per optimization — whether the skill improves or not.
+
+When an optimization fails — like Writing Plans above — we refund the customer and absorb the compute loss. We do not charge for failures. The Writing Plans run cost us real API spend and resulted in a full refund.
+
+We are willing to take this risk because the methodology works. 5 out of 6 skills validated. The one failure was caused by under-specified evaluation criteria, not by a broken pipeline. We fixed the criteria design process and moved on.
+
+This is skin in the game. If we cannot improve your skill, you pay nothing. We pay for the compute either way.
+
+---
+
 ## What We Do Not Publish
 
 We publish the what (skill results, pass rates, delta, win rates) and the proof (methodology, test cases, judge outputs). We do not publish:
