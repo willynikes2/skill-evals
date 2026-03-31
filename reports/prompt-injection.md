@@ -1,6 +1,6 @@
 # Evaluation Report: Prompt Injection Defense
 
-**Source:** Claudini paper response (https://arxiv.org/abs/2504.03413)
+**Source:** Claudini paper response
 **Status:** Validated
 **Date:** 2025
 
@@ -21,6 +21,6 @@ Prompt injection attacks attempt to override a model's instructions by embedding
 
 This skill was developed in response to the Claudini paper, which demonstrated real-world prompt injection vulnerabilities in deployed Claude-based systems.
 
-## Full Report
+## About This Report
 
-Full evaluation report including binary criteria, test case inputs/outputs, and per-judge results will be published here.
+This is a summary report. Full per-judge evaluation data is available on request. Contact: skills@presientlabs.com

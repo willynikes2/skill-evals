@@ -34,9 +34,9 @@ The judge is not asked to explain its reasoning beyond what is needed to produce
 
 ## Aggregation
 
-Win rate is computed as: (number of pairwise comparisons won by optimized version) / (total comparisons).
+Win rate is computed as: (number of pairwise comparisons won by optimized version) / (wins + losses). Ties are excluded from the denominator.
 
-A tie — where both versions pass or both fail the same criterion — counts as neither a win nor a loss. Ties are recorded and reported.
+A tie — where both versions pass or both fail the same criterion — counts as neither a win nor a loss. Ties are recorded and reported but do not affect the win rate calculation.
 
 Per-judge win rates are reported separately in addition to the aggregate, so reviewers can see whether consensus was strong or whether one judge drove the result.
 

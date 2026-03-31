@@ -19,6 +19,6 @@
 
 The Debugging skill shapes how an AI model approaches bug investigation. It governs diagnostic reasoning order, how hypotheses are formed and tested, when to ask clarifying questions vs. proceed autonomously, and how to communicate findings and fixes.
 
-## Full Report
+## About This Report
 
-Full evaluation report including binary criteria, test case inputs/outputs, and per-judge results will be published here.
+This is a summary report. Full per-judge evaluation data is available on request. Contact: skills@presientlabs.com

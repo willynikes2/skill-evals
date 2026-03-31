@@ -21,6 +21,6 @@ A CLAUDE.md file is a persistent instruction set read by Claude Code at the star
 
 Boris Cherny's public CLAUDE.md was used as the baseline for this evaluation. It is a well-structured, real-world example of how a senior practitioner instructs their AI collaborator.
 
-## Full Report
+## About This Report
 
-Full evaluation report including binary criteria, test case inputs/outputs, and per-judge results will be published here.
+This is a summary report. Full per-judge evaluation data is available on request. Contact: skills@presientlabs.com

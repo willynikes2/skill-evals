@@ -48,7 +48,7 @@ Each test case is scored across 3–5 such criteria. The pass rate is the percen
 
 We use three judge models — Claude, GPT-4o, and Gemini — running independently, without sharing context. No single model acts as the sole arbiter of quality. This guards against model-specific blind spots and evaluation bias.
 
-All three judges are run in the same session without access to each other's outputs. Final judgments are majority-voted where needed, and per-judge agreement rates are recorded.
+All three judges run independently in separate sessions with no shared context. Final judgments are majority-voted where needed, and per-judge agreement rates are recorded.
 
 ### Blind Pairwise Comparison
 
@@ -116,7 +116,7 @@ We have since redesigned the Writing Plans evaluation and will re-run it with co
 
 ## Compute Cost and Our Guarantee
 
-Every optimization costs real money to run. Each skill goes through ~50 mutation cycles, with 3 independent LLM judges (Claude, GPT-4o, Gemini) evaluating every cycle. That is hundreds of API calls per optimization — whether the skill improves or not.
+Every optimization costs real money to run. Each skill goes through multiple optimization cycles, with 3 independent LLM judges (Claude, GPT-4o, Gemini) evaluating every cycle. That is thousands of API calls per optimization — whether the skill improves or not.
 
 When an optimization fails — like Writing Plans above — we refund the customer and absorb the compute loss. We do not charge for failures. The Writing Plans run cost us real API spend and resulted in a full refund.
 
@@ -153,15 +153,15 @@ skill-evals/
     judge-protocol.md     — Multi-model blind judging procedure
     test-case-design.md   — How test cases are constructed and validated
   reports/
-    brainstorming.md      — Full evaluation report: Brainstorming skill
-    code-review.md        — Full evaluation report: Code Review skill
-    debugging.md          — Full evaluation report: Debugging skill
-    founders-claude-md.md — Full evaluation report: Founder's CLAUDE.md
-    prompt-injection.md   — Full evaluation report: Prompt Injection Defense
-    writing-plans.md      — Full evaluation report: Writing Plans (failure analysis)
+    brainstorming.md      — Summary report: Brainstorming skill
+    code-review.md        — Summary report: Code Review skill
+    debugging.md          — Summary report: Debugging skill
+    founders-claude-md.md — Summary report: Founder's CLAUDE.md
+    prompt-injection.md   — Summary report: Prompt Injection Defense
+    writing-plans.md      — Summary report: Writing Plans (failure analysis)
 ```
 
-Detailed reports for each skill are in `/reports/`. Each report includes: skill description, source attribution, test case summary, binary criteria used, per-judge results, pass rates, and analysis.
+Summary reports for each skill are in `/reports/`. Each report includes: skill description, source attribution, and summary metrics. Full per-judge evaluation data is available on request.
 
 ---
 
@@ -170,7 +170,7 @@ Detailed reports for each skill are in `/reports/`. Each report includes: skill 
 - Presient Labs: https://presientlabs.com
 - Superpowers plugin (obra): https://github.com/obra/superpowers
 - Boris Cherny: https://borischerny.com
-- Claudini paper (prompt injection): https://arxiv.org/abs/2504.03413
+- Claudini paper (prompt injection)
 
 ---
 

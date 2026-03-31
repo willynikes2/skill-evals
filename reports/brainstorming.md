@@ -19,6 +19,6 @@
 
 The Brainstorming skill shapes AI behavior during ideation sessions. It governs how the model generates, expands, and organizes ideas — including how it handles divergent vs. convergent thinking, how it avoids premature evaluation, and how it structures output for downstream use.
 
-## Full Report
+## About This Report
 
-Full evaluation report including binary criteria, test case inputs/outputs, and per-judge results will be published here.
+This is a summary report. Full per-judge evaluation data is available on request. Contact: skills@presientlabs.com

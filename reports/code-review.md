@@ -19,6 +19,6 @@
 
 The Code Review skill governs how an AI model reviews code submissions. It shapes prioritization of feedback (correctness vs. style vs. performance), format of output, handling of ambiguous cases, and how to communicate issues to the author.
 
-## Full Report
+## About This Report
 
-Full evaluation report including binary criteria, test case inputs/outputs, and per-judge results will be published here.
+This is a summary report. Full per-judge evaluation data is available on request. Contact: skills@presientlabs.com
