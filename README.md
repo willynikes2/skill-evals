@@ -1,5 +1,7 @@
 # Presient Skills Evals
 
+> **[presientlabs.com](https://presientlabs.com)** — AI skill optimization with benchmark-verified results. Free optimized brainstorming skill at [presientlabs.com/free](https://presientlabs.com/free).
+
 Scientific evaluation reports for AI skill optimization.
 
 ---
